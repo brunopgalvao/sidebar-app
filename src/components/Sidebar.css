@@ -1,0 +1,10 @@
+.sidebar-container {
+    border: red solid 2px;
+    flex: 1;
+    box-shadow: 12px 0px 15px -14px black;
+    transition: linear .9s;
+}
+
+.sidebar-container.closed {
+    display: none;
+}
