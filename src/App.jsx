@@ -6,19 +6,25 @@ import Main from './components/Main'
 import Events from './components/Events'
 
 const App = () => {
-  const [closed, setClosed] = useState('closed')
+  const [closed, setClosed] = useState(true)
 
-  useEffect(() => {
-    const hamburgerIcon = document.querySelector('.hamburger-icon')
-    hamburgerIcon.addEventListener('click', () => {
-      setClosed(closed === 'closed' ? '' : 'closed')
-    })
-  })
+  const handleScroll = () => {
+    setClosed(true)
+  }
+
+  useEffect(() => window.addEventListener('scroll', handleScroll))
+
+  const handleClick = (e, ref) => {
+    e.stopPropagation()
+    ref.current.className === 'hamburger-wrapper' ?
+    setClosed(false) : setClosed(true)
+  }
+
   return (
     <>
+      <Sidebar closed={closed} />
       <div className="home-container">
-        <Sidebar closed={closed} />
-        <Main closed={closed} />
+        <Main closed={closed} handleClick={handleClick}/>
       </div>
       <Events />
     </>

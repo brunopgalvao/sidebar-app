@@ -1,5 +1,6 @@
 .home-container {
   display: flex;
-  border: green solid 2px;
   min-height: 100vh;
+  min-width: 100vw;
+  justify-content: center;
 }
