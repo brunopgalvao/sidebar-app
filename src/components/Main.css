@@ -6,6 +6,7 @@
 
 .main-container img {
     width: 500px;
+    max-width: 90%;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     margin: 0 auto;

@@ -5,7 +5,7 @@ import Card from './Card'
 
 const Cards = () => {
     const CARDS = [...Array(18)].map((card, index) => (
-        <Card/>
+        <Card key={index}/>
     ))
 
     return (

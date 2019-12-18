@@ -5,9 +5,9 @@ import island1 from '../images/island1.jpg'
 
 const Card = () => {
     return (
-        <article class="card">
+        <article className="card">
             <img src={island1} alt="island" />
-            <div class="text">
+            <div className="text">
                 <h3>Lorem Ipsum Dolor</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Integer quis auctor elit sed vulputate mi sit amet mauris. Lectus arcu
