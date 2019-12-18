@@ -1,0 +1,25 @@
+[{
+    "imagePath": "./images/island1.jpg",
+    "title": "Lorem Ipsum Dolor",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer quis auctor elit sed vulputate mi sit amet mauris. Lectus arcu bibendum at varius vel pharetra vel turpis."
+},{
+    "imagePath": "./images/island2.jpg",
+    "title": "Lorem Ipsum Dolor",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer quis auctor elit sed vulputate mi sit amet mauris. Lectus arcu bibendum at varius vel pharetra vel turpis."
+},{
+    "imagePath": "./images/island3.jpg",
+    "title": "Lorem Ipsum Dolor",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer quis auctor elit sed vulputate mi sit amet mauris. Lectus arcu bibendum at varius vel pharetra vel turpis."
+},{
+    "imagePath": "./images/island4.jpg",
+    "title": "Lorem Ipsum Dolor",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer quis auctor elit sed vulputate mi sit amet mauris. Lectus arcu bibendum at varius vel pharetra vel turpis."
+},{
+    "imagePath": "./images/island5.jpg",
+    "title": "Lorem Ipsum Dolor",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer quis auctor elit sed vulputate mi sit amet mauris. Lectus arcu bibendum at varius vel pharetra vel turpis."
+},{
+    "imagePath": "./images/island6.jpg",
+    "title": "Lorem Ipsum Dolor",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer quis auctor elit sed vulputate mi sit amet mauris. Lectus arcu bibendum at varius vel pharetra vel turpis."
+}]

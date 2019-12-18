@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <>
-      <Sidebar closed={closed} />
+      <Sidebar closed={closed}  handleClick={handleClick}/>
       <div className="home-container">
         <Main closed={closed} handleClick={handleClick}/>
       </div>
